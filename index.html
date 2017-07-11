@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Видеорегистратор  в зеркале заднего вида</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="site.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="modal.min.js"></script>
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="wwb12.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+      $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+      $("a[data-rel='PhotoGallery2']").attr('rel', 'PhotoGallery2');
+      $("#PhotoGallery2").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+      $("a[href*='#contact']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#reg-rad_contact').offset().top }, 600, 'easeOutCubic');
+      });
+//      $("#form_popur").modal('show');
+      $("a[data-rel='PhotoGallery4']").attr('rel', 'PhotoGallery4');
+      $("#PhotoGallery4").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   });
+</script>
+</head>
+<body>
+   <div id="reg-rad_LayoutGrid1">
+      <div id="LayoutGrid1">
+         <div class="col-1">
+            <div id="reg-rad_Image1" style="display:inline-block;width:203px;height:57px;z-index:0;">
+               <img src="images/logo.jpg" id="Image1" alt="">
+            </div>
+            <div id="reg-rad_Text23">
+               <span style="color:#000000;font-family:'Roboto Light';font-size:20px;">Магазин электроники<br><a href="http://all-gadjets.ru/">Посетить основной сайт</a></span>
+            </div>
+         </div>
+         <div class="col-2">
+            <div id="reg-rad_Text1">
+               <span style="color:#000000;font-family:Impact;font-size:20px;">Прием заявок круглосуточно</span>
+            </div>
+            <div id="reg-rad_Text2">
+               <span style="color:#000000;font-family:Impact;font-size:20px;">Доставка по всей РОССИИ</span>
+            </div>
+         </div>
+         <div class="col-3">
+            <div id="reg-rad_FontAwesomeIcon10" style="display:inline-block;width:35px;height:23px;text-align:center;z-index:4;">
+               <a href="tel:"><div id="FontAwesomeIcon10"><i class="fa fa-phone">&nbsp;</i></div></a>
+            </div>
+            <label for="" id="Label1" style="display:inline-block;width:185px;;height:29px;line-height:29px;z-index:5;"><a href="tel:+79160238171">+7(916) 023-81-71</a></label>
+            <div id="reg-rad_cookie_button" style="display:inline-block;width:170px;height:41px;z-index:6;position:relative;">
+               <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="cookie_button"><div id="cookie_button_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:13px;"><strong>Бесплатный звонок</strong></span></div></div></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid2">
+      <div id="LayoutGrid2">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_LayoutGrid3">
+                  <div id="LayoutGrid3">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="reg-rad_Text3">
+                              <span style="color:#FFFFFF;font-family:Impact;font-size:43px;">Регистраторы, радары-детекторы, навигаторы&nbsp; </span><span style="color:#FFFFFF;font-family:Impact;font-size:32px;"><br></span><span style="color:#53A6F8;font-family:Impact;font-size:32px;">ДЛЯ ВАС!</span>
+                           </div>
+                           <div id="reg-rad_Shape1" style="display:inline-block;width:170px;height:41px;z-index:8;position:relative;">
+                              <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape1"><div id="Shape1_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:13px;"><strong>Бесплатный звонок</strong></span></div></div></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="reg-rad_LayoutGrid4">
+                  <div id="LayoutGrid4">
+                     <div class="row">
+                        <div class="col-1">
+                           <div id="reg-rad_Image2" style="display:inline-block;width:100%;height:auto;z-index:9;">
+                              <img src="images/s-f30b021c48268b5dd955203508d887df.png" id="Image2" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div id="reg-rad_Shape2" style="display:inline-block;width:170px;height:41px;z-index:12;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape2"><div id="Shape2_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="Divider4">
+      <hr id="DividerLine5" style="display:block;">
+      <div id="reg-rad_Heading2" style="display:inline-block;width:165px;height:33px;text-align:center;z-index:18;">
+         <h2 id="Heading2">КАТАЛОГ</h2>
+      </div>
+      <hr id="DividerLine7" style="display:block;">
+   </div>
+   <div id="reg-rad_car-dvr">
+      <div id="car-dvr">
+         <div class="col-1">
+            <div id="reg-rad_Image3" style="display:inline-block;width:100%;height:auto;z-index:20;">
+               <img src="images/vyidwkx2je.jpg" id="Image3" alt="">
+            </div>
+            <div id="reg-rad_PhotoGallery1" style="display:inline-block;width:100%;z-index:21;">
+               <div id="PhotoGallery1">
+                  <div class="thumbnails">
+                     <div class="thumbnail">
+                        <a href="images/2reg.jpg" data-rel=""><img alt="" src="images/2reg.jpg"></a>
+                     </div>
+                     <div class="thumbnail">
+                        <a href="images/3reg.jpg" data-rel=""><img alt="" src="images/3reg.jpg"></a>
+                     </div>
+                     <div class="clearfix visible-col2"></div>
+                     <div class="thumbnail">
+                        <a href="images/1reg.jpg" data-rel=""><img alt="" src="images/1reg.jpg"></a>
+                     </div>
+                     <div class="clearfix visible-col2"></div>
+                  </div>
+               </div>
+            </div>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/1Mi_vnGd7T8" frameborder="0" allowfullscreen=""></iframe>
+         </div>
+         <div class="col-2">
+            <div id="reg-rad_LayoutGrid9">
+               <div id="LayoutGrid9">
+                  <div class="row">
+                     <div class="col-1">
+                        <div id="reg-rad_Text8">
+                           <span style="color:#000000;font-family:Roboto;font-size:20px;"><strong>Зеркало Видеорегистратор Car DVR Mirror HD 1080 vehicle blackbox dvr (задняя камера в наличии)</strong></span><span style="color:#000000;font-family:Roboto;font-size:13px;"><br> <br>Регистратор-зеркало Car DVR Mirror - это устройство, которое сочетает в себе автомобильный регистратор и монитор для отображения изображения с передней и задней камеры.<br><br>• Фирменный ВИДЕОЗЕРКАЛО CAR DVR MIRROR с гарантией 1 год!<br>• Полностью на русском языке с гарантией на год!<br>• Запись сразу с 2 камер. Четкая картинка 1080 HD. Хорошо различимы номера автомобилей, 5 мегапикселей<br>• Режим парковки<br>• Циклическая запись<br>• Встроенный микрофон и динамик<br>Автоотключение дисплея<br>• Начало записи при пуске двигателя<br>• Две камеры - съемка сзади и спереди! Функция парктроника<br>• Угол обзора - 170 градусов! Больше информации о дороге. Камера поворачивается на 35 градусов <br>• G-Sensor - Защита записи при возникновении опасных ситуации + Датчик движения<br>• Покрытие &quot;Антиблик&quot;<br>• Камера - С поворотным механизмом<br>• Дарим подарки при заказе!<br>• Видео формат - MOV<br>Дисплей: ЖК-дисплей с диагональю 4,3 дюйма<br>• Встроенный аккумулятор<br>• Размер 304х81х12<br><br>• Комплект :<br>1.&nbsp;&nbsp;&nbsp;&nbsp; Видеорегистратор зеркало<br>2.&nbsp;&nbsp;&nbsp;&nbsp; Камера заднего вида<br>3.&nbsp;&nbsp;&nbsp;&nbsp; Зарядка в прикуриватель<br>4.&nbsp;&nbsp;&nbsp;&nbsp; Крепления<br>5. Инструкция </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid6">
+      <div id="LayoutGrid6">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Shape3" style="display:inline-block;width:170px;height:41px;z-index:25;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape3"><div id="Shape3_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+               <div id="reg-rad_Text9">
+                  <span style="color:#000000;font-family:Roboto;font-size:20px;"><strike><br>3900</strike></span>
+               </div>
+               <div id="reg-rad_Text10">
+                  <span style="color:#ED1C24;font-family:Roboto;font-size:27px;"><strong>1990 РУБ.</strong></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid18">
+      <div id="LayoutGrid18">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_android">
+      <div id="android">
+         <div class="col-1">
+            <div id="reg-rad_Image4" style="display:inline-block;width:100%;height:auto;z-index:28;">
+               <img src="images/jks11k2oru.jpg" id="Image4" alt="">
+            </div>
+            <div id="reg-rad_PhotoGallery2" style="display:inline-block;width:100%;z-index:29;">
+               <div id="PhotoGallery2">
+                  <div class="thumbnails">
+                     <div class="thumbnail">
+                        <a href="images/res1.jpg" data-rel=""><img alt="" src="images/res1.jpg"></a>
+                     </div>
+                     <div class="thumbnail">
+                        <a href="images/res2.jpg" data-rel=""><img alt="" src="images/res2.jpg"></a>
+                     </div>
+                     <div class="clearfix visible-col2"></div>
+                     <div class="thumbnail">
+                        <a href="images/res3.jpg" data-rel=""><img alt="" src="images/res3.jpg"></a>
+                     </div>
+                     <div class="clearfix visible-col2"></div>
+                  </div>
+               </div>
+            </div>
+            <iframe width="100%"" height="200" src="https://www.youtube.com/embed/M96_Hv4DdKE" frameborder="0" allowfullscreen=""></iframe>
+         </div>
+         <div class="col-2">
+            <div id="reg-rad_LayoutGrid7">
+               <div id="LayoutGrid7">
+                  <div class="row">
+                     <div class="col-1">
+                        <div id="reg-rad_Text4">
+                           <span style="color:#000000;font-family:Roboto;font-size:20px;"><strong>Андроид Зеркало Видеорегистратор</strong></span><span style="color:#000000;font-family:Roboto;font-size:13px;"><br> <br>• Радар-детекор (иногда ошибочно его называют анти-радаром), Gps-навигатор и регистратор с задней камерой<br>• Wifi и 3G, сенсорный экран<br>• Сенсорное умное зеркало видеорегистратор на андроиде, с радар-детектором, навигатором, записью с 2 камер<br><br>Фирменный ВИДЕОЗЕРКАЛО CAR DVR MIRROR с гарантией 1 год!<br>• Полностью на русском языке с гарантией на год!<br>• Запись сразу с 2 камер. Четкая картинка 1080 Full HD. Хорошо различимы номера автомобилей, 5 мегапикселей<br>• Режим парковки<br>• Циклическая запись<br>• Встроенный микрофон и динамик<br>Автоотключение дисплея<br>• Начало записи при пуске двигателя<br>• Две камеры - съемка сзади и спереди! Функция парктроника<br>• Угол обзора - 170 градусов! Больше информации о дороге. Камера поворачивается на 35 градусов <br>• G-Sensor - Защита записи при возникновении опасных ситуации + Датчик движения<br>• Покрытие &quot;Антиблик&quot;<br>• Камера - С поворотным механизмом<br>• Дарим подарки при заказе!<br>• Видео формат - MOV<br>Дисплей: ЖК-дисплей с диагональю 4,3 дюйма<br>• Встроенный аккумулятор<br>• Размер 304х81х12<br><br>• Комплект :<br>1.&nbsp;&nbsp;&nbsp;&nbsp; Андроид Видеорегистратор Зеркало<br>2.&nbsp;&nbsp;&nbsp;&nbsp; Камера заднего вида<br>3.&nbsp;&nbsp;&nbsp;&nbsp; Зарядка в прикуриватель<br>4.&nbsp;&nbsp;&nbsp;&nbsp; Крепления<br>5. USB переходник<br>6.&nbsp; Gps </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid10">
+      <div id="LayoutGrid10">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Shape4" style="display:inline-block;width:170px;height:41px;z-index:34;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape4"><div id="Shape4_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+               <div id="reg-rad_Text5">
+                  <span style="color:#000000;font-family:Roboto;font-size:20px;"><strike><br>8900</strike></span>
+               </div>
+               <div id="reg-rad_Text6">
+                  <span style="color:#ED1C24;font-family:Roboto;font-size:27px;"><strong>6990&nbsp; РУБ.</strong></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid11">
+      <div id="LayoutGrid11">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid5">
+      <div id="LayoutGrid5">
+         <div class="col-1">
+            <div id="reg-rad_Image18" style="display:inline-block;width:100%;height:auto;z-index:37;">
+               <img src="images/siq6napuu1.jpg" id="Image18" alt="">
+            </div>
+            <div id="reg-rad_PhotoGallery4" style="display:inline-block;width:100%;z-index:38;">
+               <div id="PhotoGallery4">
+                  <div class="thumbnails">
+                     <div class="thumbnail">
+                        <a href="images/ret1.jpg" data-rel=""><img alt="" src="images/ret1.jpg"></a>
+                     </div>
+                     <div class="thumbnail">
+                        <a href="images/ret2.jpg" data-rel=""><img alt="" src="images/ret2.jpg"></a>
+                     </div>
+                     <div class="clearfix visible-col2"></div>
+                  </div>
+               </div>
+            </div>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/IHtfAOVpmiA" frameborder="0" allowfullscreen=""></iframe>
+         </div>
+         <div class="col-2">
+            <div id="reg-rad_LayoutGrid8">
+               <div id="LayoutGrid8">
+                  <div class="row">
+                     <div class="col-1">
+                        <div id="reg-rad_Text44">
+                           <span style="color:#000000;font-family:Roboto;font-size:20px;"><strong>Регистратор 3 в 1. Радар-детектор, Регистратор, Gps навигатор </strong></span><span style="color:#000000;font-family:Roboto;font-size:13px;"><br> <br>Радар-Детектор (иногда ошибочно называют его антирадаром), регистратор, Gps навигатор <br><br>Определение комплексов «Стрелка», «Кречет», «Робот», &quot;Автоураган&quot;, &quot;Поток&quot; и др.<br>• Распознавание радаров за 1200 - 600 метров.<br>• Поддержка Google Maps.<br>• Определение комплексов «Стрелка», «Кречет», «Робот», &quot;Автоураган&quot;, &quot;Поток&quot; и др.<br>• Полностью на русском языке с гарантией на год!<br>• Встроенный микрофон и динамик<br>Автоотключение дисплея<br>• Угол обзора - 170 градусов! Больше информации о дороге. Камера поворачивается на 35 градусов <br>• G-Sensor - Защита записи при возникновении опасных ситуации + Датчик движения<br>• Дарим подарки при заказе!<br>• Видео формат - MOV<br>Дисплей: ЖК-дисплей с диагональю 4,3 дюйма<br>• Встроенный аккумулятор<br><br>Комплектация:<br>1.&nbsp;&nbsp; Видеорегистратор 3в1 - <br>2.&nbsp;&nbsp; Зарядка для прикуривателя<br>3.&nbsp;&nbsp; USB-шнур для обновления GPS баз.<br>4 .&nbsp;&nbsp; Крепление-присоска на стекло.<br>5.&nbsp;&nbsp; Инструкция <br></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid14">
+      <div id="LayoutGrid14">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Shape5" style="display:inline-block;width:170px;height:41px;z-index:42;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape5"><div id="Shape5_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+               <div id="reg-rad_Text11">
+                  <span style="color:#000000;font-family:Roboto;font-size:20px;"><strike><br>8900</strike></span>
+               </div>
+               <div id="reg-rad_Text12">
+                  <span style="color:#ED1C24;font-family:Roboto;font-size:27px;"><strong>6990&nbsp; РУБ.</strong></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid15">
+      <div id="LayoutGrid15">
+         <div class="row">
+            <div class="col-1">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexBoxContainer1">
+      <hr id="Line1" style="display:block;">
+      <div id="reg-rad_Heading1" style="display:inline-block;width:436px;height:77px;text-align:center;z-index:46;">
+         <h2 id="Heading1">ДОПОЛНИТЕЛЬНЫЕ<br>ТОВАРЫ</h2>
+      </div>
+      <hr id="Line2" style="display:block;">
+   </div>
+   <div id="reg-rad_LayoutGrid17">
+      <div id="LayoutGrid17">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Text13">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">КОВРИК ДЛЯ СМАРТФОНА</span>
+               </div>
+               <div id="reg-rad_Image7" style="display:inline-block;width:131px;height:131px;z-index:49;">
+                  <img src="images/IMG_0477.JPG" id="Image7" alt="">
+               </div>
+               <div id="reg-rad_Text18">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">190 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape14" style="display:inline-block;width:170px;height:41px;z-index:51;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape14"><div id="Shape14_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="reg-rad_Text14">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">РАЗВЕТВИТЕЛИ</span>
+               </div>
+               <div id="reg-rad_Image8" style="display:inline-block;width:131px;height:96px;z-index:53;">
+                  <img src="images/IMG_0478.JPG" id="Image8" alt="">
+               </div>
+               <div id="reg-rad_Text17">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">190 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape15" style="display:inline-block;width:170px;height:41px;z-index:55;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape15"><div id="Shape15_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="reg-rad_Text19">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">FM ТРАНСМИТТЕРЫ</span>
+               </div>
+               <div id="reg-rad_Image9" style="display:inline-block;width:212px;height:178px;z-index:57;">
+                  <img src="images/IMG_0479.JPG" id="Image9" alt="">
+               </div>
+               <div id="reg-rad_Text20">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">290&nbsp; РУБ РУБ</span>
+               </div>
+               <div id="reg-rad_Shape16" style="display:inline-block;width:170px;height:41px;z-index:59;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape16"><div id="Shape16_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div id="reg-rad_Text15">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">КОЗЫРЕК АНТИБЛИК</span>
+               </div>
+               <div id="reg-rad_Image10" style="display:inline-block;width:212px;height:212px;z-index:61;">
+                  <img src="images/IMG_0480.JPG" id="Image10" alt="">
+               </div>
+               <div id="reg-rad_Text21">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">290&nbsp; РУБ РУБ</span>
+               </div>
+               <div id="reg-rad_Shape17" style="display:inline-block;width:170px;height:41px;z-index:63;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape17"><div id="Shape17_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid19">
+      <div id="LayoutGrid19">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Text22">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">АВТОСКАНЕР</span>
+               </div>
+               <div id="reg-rad_Image11" style="display:inline-block;width:212px;height:212px;z-index:65;">
+                  <img src="images/IMG_0481.JPG" id="Image11" alt="">
+               </div>
+               <div id="reg-rad_Text25">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">490 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape10" style="display:inline-block;width:170px;height:41px;z-index:67;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape10"><div id="Shape10_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="reg-rad_Text26">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">АНТИСОН ДЛЯ ВОДИТЕЛЕЙ</span>
+               </div>
+               <div id="reg-rad_Image12" style="display:inline-block;width:212px;height:212px;z-index:69;">
+                  <img src="images/IMG_0482.JPG" id="Image12" alt="">
+               </div>
+               <div id="reg-rad_Text29">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">290 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape11" style="display:inline-block;width:170px;height:41px;z-index:71;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape11"><div id="Shape11_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="reg-rad_Text27">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">ОБЫЧНЫЙ РЕГИСТРАТОР</span>
+               </div>
+               <div id="reg-rad_Image13" style="display:inline-block;width:212px;height:212px;z-index:73;">
+                  <img src="images/IMG_0483.JPG" id="Image13" alt="">
+               </div>
+               <div id="reg-rad_Text30">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">1490 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape12" style="display:inline-block;width:170px;height:41px;z-index:75;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape12"><div id="Shape12_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div id="reg-rad_Text28">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">РАДАР-ДЕТЕКТОР</span>
+               </div>
+               <div id="reg-rad_Image14" style="display:inline-block;width:212px;height:169px;z-index:77;">
+                  <img src="images/IMG_0484.JPG" id="Image14" alt="">
+               </div>
+               <div id="reg-rad_Text31">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">1490 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape13" style="display:inline-block;width:170px;height:41px;z-index:79;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape13"><div id="Shape13_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid20">
+      <div id="LayoutGrid20">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Text32">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">MICRO SD 16 ГБ 10 КЛАСС</span>
+               </div>
+               <div id="reg-rad_Image19" style="display:inline-block;width:212px;height:212px;z-index:81;">
+                  <img src="images/IMG_0485.JPG" id="Image19" alt="">
+               </div>
+               <div id="reg-rad_Text34">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">490 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape7" style="display:inline-block;width:170px;height:41px;z-index:83;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape7"><div id="Shape7_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="reg-rad_Text35">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">КОВРИК ДЛЯ СМАРТФОНА</span>
+               </div>
+               <div id="reg-rad_Image15" style="display:inline-block;width:212px;height:198px;z-index:85;">
+                  <img src="images/IMG_0486.JPG" id="Image15" alt="">
+               </div>
+               <div id="reg-rad_Text38">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">790 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape6" style="display:inline-block;width:170px;height:41px;z-index:87;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape6"><div id="Shape6_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="reg-rad_Text36">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">ПАРКТРОНИК</span>
+               </div>
+               <div id="reg-rad_Image17" style="display:inline-block;width:212px;height:202px;z-index:89;">
+                  <img src="images/sdfprk.jpg" id="Image17" alt="">
+               </div>
+               <div id="reg-rad_Text39">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">1490 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape8" style="display:inline-block;width:170px;height:41px;z-index:91;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape8"><div id="Shape8_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div id="reg-rad_Text37">
+                  <span style="color:#000000;font-family:Roboto;font-size:19px;">Gps навигатор </span>
+               </div>
+               <div id="reg-rad_Image16" style="display:inline-block;width:212px;height:198px;z-index:93;">
+                  <img src="images/sgfafdasfeeee.jpg" id="Image16" alt="">
+               </div>
+               <div id="reg-rad_Text40">
+                  <span style="color:#000000;font-family:Roboto;font-size:16px;">1990 РУБ</span>
+               </div>
+               <div id="reg-rad_Shape9" style="display:inline-block;width:170px;height:41px;z-index:95;position:relative;">
+                  <a href="#" onclick="$('#form_popur').modal('show');return false;"><div id="Shape9"><div id="Shape9_text"><span style="color:#FFFFFF;font-family:Verdana;font-size:21px;"><strong>КУПИТЬ</strong></span></div></div></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid16">
+      <div id="LayoutGrid16">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Image6" style="display:inline-block;width:100%;height:auto;z-index:96;">
+                  <img src="images/mani.jpg" id="Image6" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_contact">
+      <div id="contact">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Text41">
+                  <span style="color:#9C9C9C;font-family:Roboto;font-size:15px;">Звонок по России бесплатный<br>+7(916) 023-81-71<br><br>ОГРН 432566436400325 МОСКВА, Ленинградский пр-т, 69 <br><br>luxurytopwatch.line@yandex.ru<br><br><br>Все права защищены © 2010 - 2017<br></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <script charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3ApZENlXNjibaU3aFlemgWBSuAwgdkbQ90&amp;width=100%25&amp;height=272&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="reg-rad_LayoutGrid21">
+      <div id="LayoutGrid21">
+         <div class="row">
+            <div class="col-1">
+               <div id="reg-rad_Text42">
+                  <span style="color:#979797;font-family:Roboto;font-size:13px;">Все права защищены (c) 2017 reg-rad-det.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="form_popur" class="modal fade" data-keyboard="false" role="dialog" style="text-align:left;">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-body">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+               <div id="reg-rad_Form2" style="position:absolute;left:7px;top:88px;width:249px;height:220px;z-index:103;">
+                  <form name="Form2" method="post" action="send.php" accept-charset="UTF-8" id="Form2">
+                     <input type="submit" id="send" name="" value="ОТПРАВИТЬ" style="position:absolute;left:18px;top:151px;width:215px;height:50px;z-index:100;margin-top:30px;
+cursor:pointer;">
+                     <input type="text" id="Editbox7" style="position:absolute;left:17px;top:8px;width:205px;height:40px;line-height:40px;z-index:101;margin-top:30px;" name="name" value="" spellcheck="false" placeholder="&#1042;&#1072;&#1096;&#1077; &#1080;&#1084;&#1103;" required="">
+                     <input type="text" id="Editbox8" style="position:absolute;left:17px;top:77px;width:205px;height:40px;line-height:40px;z-index:102;margin-top:30px;" name="phone" value="" spellcheck="false" placeholder="&#1042;&#1072;&#1096; &#1090;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;" required="">
+                  </form>
+               </div>
+               <div id="reg-rad_Text43" style="position:absolute;left:22px;top:50px;width:222px;height:46px;text-align:center;z-index:104;">
+                  <span style="color:#696969;font-family:'Roboto Medium';font-size:17px;">Оставьте контакты<br>и мы вам перезвоним</span></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
