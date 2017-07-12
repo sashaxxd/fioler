@@ -38,7 +38,7 @@ body
    background: #ffffff url(images/zakaz.jpg) top -20% center no-repeat;
    
 }
-
+ </style>
 <script type="text/javascript">
 setTimeout('location.replace("http://reg-rad-det.novoavto7.ru/")', 3000);
 /*Изменить текущий адрес страницы через 3 секунды (3000 миллисекунд)*/
